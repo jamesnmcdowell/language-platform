@@ -26,9 +26,10 @@ const GlobalStyle = createGlobalStyle`
     padding:.5rem;
   }
   .li-elem {
-    padding:.5rem;
   }
   .a-elem {
+      padding:.5rem;
+      
 
   }
   .active-page {
@@ -39,16 +40,20 @@ const GlobalStyle = createGlobalStyle`
 
   }
   .previous-btn{
-    padding:.5rem;
+      
   }
   .next-btn{
-    padding:.5rem;    
+ 
   }
   .pre{
-
+    padding:.5rem;
   }
   .nex{
+      padding:.5rem;
 
+  }
+  .selected-menu-item div {
+      box-shadow: inset 0 -4px 0 0 red;
   }
 
    

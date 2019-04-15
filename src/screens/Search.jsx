@@ -28,7 +28,7 @@ import {
     InfiniteScroll
 } from "grommet";
 
-import { Link, Video, CatalogOption, RadialSelected } from "grommet-icons";
+import { Link, Video, CatalogOption, RadialSelected, AssistListening, Workshop, Chat, Edit } from "grommet-icons";
 import { sortBy, uniq, uniqBy } from "lodash";
 import FilterSelect from "../components/FilterSelect"
 import FilterSelectMobile from "../components/FilterSelectMobile";
@@ -73,11 +73,11 @@ const colorKey = {
     "superior": "#FDDD03"
 };
 const skillKey = {
-    "reading": Link,
-    "listening": Video,
-    "watching": CatalogOption,
-    "speaking": RadialSelected,
-    "writing": Video
+    "reading": CatalogOption,
+    "listening": AssistListening,
+    "watching": Video,
+    "speaking": Chat,
+    "writing": Edit
 };
 
 const CircleIcon = (color, size) => (
@@ -85,8 +85,6 @@ const CircleIcon = (color, size) => (
         <circle cx='12' cy='12' r='11' fill={color} />
     </svg>
 );
-
-
 
 const allFilters = {
     category: {
@@ -297,12 +295,11 @@ class Search extends Component {
                                                                 justify="between"
                                                                 align="center"
                                                             >
-                                                                <Heading level="4" margin="none">{c.name}</Heading>
+                                                                <Heading level="3" margin="none">{c.name}</Heading>
                                                                 <Link color="plain" />
                                                             </Box>
-
                                                             <Box>
-                                                                <Heading color="light1" level="4" margin="none">{c.category.join(', ')}</Heading>
+                                                                    <Heading color="dark-4" level="4" margin="none">{c.category.join(', ')}</Heading>
                                                             </Box>
                                                         </Box>
 
