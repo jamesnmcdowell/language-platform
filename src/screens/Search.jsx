@@ -269,7 +269,7 @@ class Search extends Component {
                                 overflow="auto"
                                 flex="true"
                                 basis="auto"
-                                pad={{ top: (size ==='small') ? 'large' : 'medium', left: 'medium', bottom: 'medium', right: 'medium'}}
+                            pad={{ top: (size === 'small') ? 'large' : 'medium', left: (size === 'small') ? 'large' : 'medium', bottom: 'medium', right: (size === 'small') ? 'large' : 'medium'}}
                             >
                                 <Grid
                                     columns={size === 'small' ? ["repeat(auto-fit, minmax(250px, 1fr))"] : ["repeat(auto-fit, minmax(250px, 1fr))"]}
@@ -299,12 +299,12 @@ class Search extends Component {
                                                                 <Link color="plain" />
                                                             </Box>
                                                             <Box>
-                                                                    <Heading color="dark-4" level="4" margin="none">{c.category.join(', ')}</Heading>
+                                                                    <Text color="dark-4" margin="none">{c.category.join(', ')}</Text>
                                                             </Box>
                                                         </Box>
 
                                                         <Box flex="true">
-                                                            <Paragraph color="light1" level="4" >{c.description}</Paragraph>
+                                                            <Paragraph color="light1" size="medium" >{c.description}</Paragraph>
                                                         </Box>
                                                         <Box
                                                             direction="row"

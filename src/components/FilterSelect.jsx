@@ -173,7 +173,7 @@ const FilterSelect = props => {
                     <Text>
                         <strong>{filterTitle.toUpperCase()}</strong>
                     </Text>
-                    {theme.filterSelect.icons.next || <Sort />}
+                    <Sort/>
                 </Box>
             )}
             {Object.keys(filters).map(renderFilter)}

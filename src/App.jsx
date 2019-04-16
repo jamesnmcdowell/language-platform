@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
 
   }
   .selected-menu-item div {
-      box-shadow: inset 0 -4px 0 0 red;
+      box-shadow: inset 0 -4px 0 0 #26c6da;
   }
 
    
@@ -74,9 +74,9 @@ class App extends Component {
                         <Box basis="auto" flex="true" >
                             
                             <Switch>
-                                <Route exact path='/' component={Home} />
+                                <Route exact path='/' component={Search} />
                                 <Route exact path='/contact' component={Contact} />
-                                <Route exact path='/search' component={Search} />
+                                {/* <Route exact path='/search' component={Search} /> */}
                                 <Route exact path='/about' component={About} />
                             </Switch>
                         </Box >

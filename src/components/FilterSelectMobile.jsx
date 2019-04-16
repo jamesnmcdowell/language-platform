@@ -181,7 +181,6 @@ const FilterSelectMobile = props => {
                         <strong>{filterTitle.toUpperCase()}</strong>
                     </Text>
                     </Box>
-                    {/* {theme.filterSelect.icons.next || <Sort />} */}
                     <Box flex="false" onClick={closeWindow}>
                         <Close />
                     </Box>
