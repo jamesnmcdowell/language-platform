@@ -14,19 +14,24 @@ import {
 import Art from "../assets/ceiling-art.jpg";
 
 const Contact = () => (
-
-    <Box flex pad="large" overflow="auto">
-        <Box background="white" elevation="small">
+    <ResponsiveContext.Consumer>
+        {size => (
+    <Box flex pad={size === 'small' ? "medium" : "medium"} overflow="auto">
+        <div>
+        <Box background="white" elevation="small" flex>
             <Box
                 pad="xlarge"
             >
-                <ResponsiveContext.Consumer>
-                    {size => (
                         <Grid
                             columns={size === 'small' ? ["1fr"] : ["2fr", "3fr"]}
                             gap="large"
                         >
-                            <Image src={Art}/>
+                                <Box height={size === 'small' ? "medium" : "large"} width="auto">
+                                    <Image
+                                        fit="cover"
+                                        src={Art}
+                                    />
+                                </Box>
                             <Box direction="column" height="large" width="auto">
                                 <Heading level="1" margin="none">GET IN TOUCH</Heading>
                                 <Paragraph size="large">
@@ -45,12 +50,14 @@ const Contact = () => (
                             </Box>
 
                         </Grid>
-                    )}
-                </ResponsiveContext.Consumer>
+                  
 
             </Box>
         </Box>
+        </div>
     </Box>
+        )}
+    </ResponsiveContext.Consumer>
 
 );
 

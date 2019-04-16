@@ -17,42 +17,43 @@ const NavHeader = ({ history }) => (
                 pad={{ horizontal: "large" }}
                 elevation="small"
             >
-                <Box background="white"
-                    flex="grow"
-                    justify="center"
-                    onClick={() => { history.push('/') }}>
-                    <Heading level="3" margin="none">PersianAmouz</Heading>
-                </Box>
+                <NavLinkS exact to="/" activeClassName="selected-menu-item" activeStyle={{
+                }}>
+                    <Box pad="medium">
+                        <Heading color="dark-1" level="3" margin="none">PersianAmouz</Heading>
+                    </Box>
+                </NavLinkS>
                 <Box
                     flex="grow"
                     direction="row"
                     justify="center"
                     alignSelf="center"
+                    justify="end"
                 >
-                    <NavLinkS to="/about" activeClassName="selected-menu-item" activeStyle={{
+                    <NavLinkS exact to="/about" activeClassName="selected-menu-item" activeStyle={{
                     }}>
                         <Box pad="medium">
-                            <Heading color="dark-1" level="3" margin="none">ABOUT</Heading>
+                            <Heading color="dark-1" level="3" margin="none">About</Heading>
                         </Box>
                     </NavLinkS>
-                    <NavLinkS to="/contact" activeClassName="selected-menu-item" activeStyle={{
+                    <NavLinkS exact to="/contact" activeClassName="selected-menu-item" activeStyle={{
                     }}>
                         <Box pad="medium">
-                            <Heading color="dark-1" level="3" margin="none">CONTACT</Heading>
+                            <Heading color="dark-1" level="3" margin="none">Contact</Heading>
                         </Box>
                     </NavLinkS>
-                    <NavLinkS to="/search" activeClassName="selected-menu-item" activeStyle={{
+                    {/* <NavLinkS to="/search" activeClassName="selected-menu-item" activeStyle={{
                     }}>
                         <Box pad="medium">
                             <Heading color="dark-1" level="3" margin="none">SEARCH</Heading>
                         </Box>
-                    </NavLinkS>
+                    </NavLinkS> */}
                 </Box>
-                <Box background="white"
+                {/* <Box background="white"
                     flex="grow"
                     justify="center"
                 >
-                </Box>
+                </Box> */}
             </Box>
         )}
     </ResponsiveContext.Consumer>
