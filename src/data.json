@@ -334,7 +334,7 @@
   {
     "id": 15,
     "name": "Google Translate",
-    "description": "Translations are not always perfect especially for sentences but if you are intermediate to advanced you can use it as a powerful tool and not get confused by its mistakes. It has been gradually improving for years. It is a great reference tool if you forgot a word but vaguely remember it and just want to look it up. You can both speak and write in Persian and it will convert this input into a translation -- powerful tool. Still not text to speech in Persian.",
+    "description": "Translations are not always perfect especially for sentences but if you are more advanced, you can sort through its shortcomings and use it as a powerful tool. It’s great for looking up words that you vaguely remember but want to confirm. You can both speak and write in Persian and it will convert this input into a translation. Still not text to speech in Persian.",
     "field": "language",
     "category": [
       "grammar",
@@ -355,5 +355,215 @@
       "independent"
     ],
     "url": "https://translate.google.com/"
+  },
+  {
+    "id": 16,
+    "name": "Ganjoor",
+    "description": "The premiere online collection of persian poetry from a variety of poetry accompanied with recordings.",
+    "field": "language",
+    "category": [
+      "poetry"
+    ],
+    "proficiency": [
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "reading",
+      "listening"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "https://ganjoor.net/"
+  },
+  {
+    "id": 17,
+    "name": "Lyrics + Translations",
+    "description": "Open-source collection of song lyrics in Persian with English translation. Quality may vary and is dependent on each translator.",
+    "field": "language",
+    "category": [
+      "music"
+    ],
+    "proficiency": [
+      "novice",
+      "intermediate",
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "reading"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "https://lyricstranslate.com/en/language/persian-lyrics"
+  },
+  {
+    "id": 18,
+    "name": "Movie Streaming",
+    "description": "IMVbox is a subscription-based platform to stream Iranian films. A number of them are free to watch.",
+    "field": "language",
+    "category": [
+      "film"
+    ],
+    "proficiency": [
+      "intermediate",
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "listening",
+      "watching"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "https://www.imvbox.com/"
+  },
+  {
+    "id": 19,
+    "name": "Calligraphy Qalam",
+    "description": "Contains a variety of interactive tools and information to help you learn more about calligraphy in the Arab, Ottoman and Persian traditions.",
+    "field": "language",
+    "category": [
+      "calligraphy"
+    ],
+    "proficiency": [
+      "novice",
+      "intermediate",
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "writing"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "http://calligraphyqalam.com/index.html"
+  },
+  {
+    "id": 20,
+    "name": "Vajehyab dictionary",
+    "description": "Comprehensive online searchable Persian dictionary.",
+    "field": "language",
+    "category": [
+      "dictionary"    
+    ],
+    "proficiency": [
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "reading"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "https://www.vajehyab.com/"
+  },
+  {
+    "id": 21,
+    "name": "Quizlet flashcards",
+    "description": "Open-source vocabulary flashcards posted by community.",
+    "field": "language",
+    "category": [
+      "vocabulary"
+    ],
+    "proficiency": [
+      "novice",
+      "intermediate",
+      "advanced"
+    ],
+    "skill": [
+      "reading"
+    ],
+    "type": [
+      "external",
+      "independent"
+    ],
+    "url": "https://quizlet.com/"
+  },
+  {
+    "id": 22,
+    "name": "Persian in Context",
+    "description": "Publicly available textbooks from NC State University.",
+    "field": "language",
+    "category": [
+      "textbook"
+    ],
+    "proficiency": [
+      "novice",
+      "intermediate"
+    ],
+    "skill": [
+      "reading",
+      "writing"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "https://fll.chass.ncsu.edu/persian/persian_in_context/"
+  },
+  {
+    "id": 23,
+    "name": "Farsi123",
+    "description": "A dictionary with excellent examples that include idioms. Much richer content than something like google translate.",
+    "field": "language",
+    "category": [
+      "dictionary"
+    ],
+    "proficiency": [
+      "novice",
+      "intermediate",
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "reading"
+    ],
+    "type": [
+      "external",
+      "independent",
+      "instructional"
+    ],
+    "url": "http://www.farsi123.com/"
+  },
+  {
+    "id": 24,
+    "name": "BBC Persian.",
+    "description": "BBC news for Persian speakers. Extensive news and includes articles, podcasts, and videos",
+    "field": "language",
+    "category": [
+      "news"
+    ],
+    "proficiency": [
+      "intermediate",
+      "advanced",
+      "superior"
+    ],
+    "skill": [
+      "reading",
+      "listening",
+      "watching"
+    ],
+    "type": [
+      "external",
+      "independent"
+    ],
+    "url": "http://www.bbc.com/persian"
   }
 ]
